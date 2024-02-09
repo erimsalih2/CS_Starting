@@ -63,7 +63,7 @@ namespace Diziler
 
         private static void Dizi_Tanimlama()
         {
-            string[] kisiler = {"Ali","Can","Tuba","Cansu" };
+            string[] kisiler = {"Ali:Can:Tuba:Cansu" };
             int[] sayilar = { 1, 3, 21, 45, 732, 52 };
             char[] karakter = { 'a', 'b', 'c', };
             Console.WriteLine(kisiler[0]);

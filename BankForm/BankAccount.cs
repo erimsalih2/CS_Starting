@@ -17,12 +17,12 @@ namespace BankForm
         public virtual string ParaCek(decimal tutar)
         {
             Bakiye-=tutar;
-            return "Hesabınızdan " + tutar + "Tl çekilmiştir.Güncel Bakiyeniz: " + Bakiye;
+            return "Hesabınızdan " + tutar + "Tl çekilmiştir.Güncel Bakiyeniz:" + Bakiye;
         }
         public virtual string ParaYatir(decimal tutar)
         {
             Bakiye += tutar;
-            return "Hesabınıza " + tutar + "Tl yatirilmiştir.Güncel Bakiyeniz: " + Bakiye;
+            return "Hesabınıza " + tutar + "Tl yatirilmiştir.Güncel Bakiyeniz" + Bakiye;
         }
     }
     class VadesizHesap:BankAccount

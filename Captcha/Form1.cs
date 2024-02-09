@@ -21,7 +21,9 @@ namespace Captcha
         {
             string[] sembol1 = { "a", "b", "c", "d", "e", "f", "g" };
             string[] sembol2 = { "+", "-", "*", "/", "#" };
+#pragma warning disable CS0168 // Variable is declared but never used
             int sembol3;
+#pragma warning restore CS0168 // Variable is declared but never used
             Random rnd= new Random();
             int sayi1, sayi2, sayi3;
             sayi1 = rnd.Next(0, sembol1.Length);

@@ -14,7 +14,7 @@ namespace Tarih_saat
             TarihFormat();
            
 
-            //Surehesabı("2023-12-01","2023-09-14");// gun cinsinden
+            //Surehesabı("2023-12-01:2023-09-14");// gun cinsinden
         }
 
         private static void TarihFormat()

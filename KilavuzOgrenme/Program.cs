@@ -17,7 +17,7 @@ namespace KilavuzOgrenme
         
         {
             
-        {"Привет","Merhaba" },
+            {"Привет","Merhaba" },
             {"Да","Evet" },
             {"Нет","Hayır" },
             {"турецкий","Türk" },

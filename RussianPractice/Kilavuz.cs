@@ -16,9 +16,7 @@ namespace RussianPractice
             {"Нет","Hayır" },
             {"турецкий","Türk" },
             {"я","Ben" }
-
-
-
+           
 
 
 

@@ -39,12 +39,14 @@ namespace Security
 
             char[] SifreKarakterleri= encryptedPassword.ToCharArray();
 
+#pragma warning disable CS0162 // Unreachable code detected
             for(int i = 0;i<SifreKarakterleri.Length;i++)
             {
                 SifreKarakterleri[i] = (char)(SifreKarakterleri[i] - 1);
 
                 return new string(SifreKarakterleri);
             }
+#pragma warning restore CS0162 // Unreachable code detected
         }
     }
 }

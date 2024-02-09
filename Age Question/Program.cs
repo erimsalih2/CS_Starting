@@ -11,9 +11,9 @@ namespace Age_Question
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Yasinizi girin 3 le carpiyim: ")
+            Console.WriteLine("Yasinizi girin 3 le carpiyim:");
             var age=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Yasinin 3 ile carpilmis hali budur: "+age*3);
+            Console.WriteLine("Yasinin 3 ile carpilmis hali budur:"+age*3);
             
         }
     }

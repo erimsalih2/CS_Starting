@@ -17,6 +17,9 @@ namespace TryCatch
 
         private static void Ornek3()
         {
+#pragma warning disable CS0168 // Variable is declared but never used
+#pragma warning disable CS0168 // Variable is declared but never used
+#pragma warning disable CS0168 // Variable is declared but never used
             try
             {
                 Console.WriteLine("500 gr kuruyemişi kaç kişiye paylaştıracaksınız");
@@ -29,6 +32,7 @@ namespace TryCatch
             catch (DivideByZeroException sifirHatasi) {
                 Console.WriteLine("0 kisi olamaz");
             }
+#pragma warning restore CS0168 // Variable is declared but never used
             catch(FormatException formatHatasi)
             {
                 Console.WriteLine("Yalnizca sayi giriniz");
@@ -37,6 +41,8 @@ namespace TryCatch
             {
                 Console.WriteLine("Baska bir hata ");
             }
+#pragma warning restore CS0168 // Variable is declared but never used
+#pragma warning restore CS0168 // Variable is declared but never used
         }
 
         private static void Loglama()
@@ -75,12 +81,18 @@ namespace TryCatch
             {
                 case "1":
                     throw new Exception("Begenmedim");
+#pragma warning disable CS0162 // Unreachable code detected
                     break;
+#pragma warning restore CS0162 // Unreachable code detected
                 case "2":
                     throw new Exception("Baska sayi bulamadin mi");
+#pragma warning disable CS0162 // Unreachable code detected
                     break;
+#pragma warning restore CS0162 // Unreachable code detected
                 case "3": throw new Exception("Boyle sayi mi olur calismiyom");
+#pragma warning disable CS0162 // Unreachable code detected
                     break;
+#pragma warning restore CS0162 // Unreachable code detected
             }
         }
 
